@@ -6,7 +6,7 @@ import os, asyncio
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 api_hash = "85d2357d1e0e5b3399aaa3c7bf01dd4f"
-token = "6383407760:AAEIXIc5wf9SRJkRaUfM0CFb7yaD81Vn34o"
+token = "6527209375:AAEKEuO2ok_bkPUuVrJstIfzW_DbGSuMmnE"
 client = TelegramClient('mohdafnftest', api_id, api_hash).start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
